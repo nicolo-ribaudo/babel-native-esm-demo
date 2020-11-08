@@ -1,0 +1,19 @@
+{
+  "name": "babel-native-esm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-function-sent": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
